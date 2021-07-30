@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BallBehavior : MonoBehaviour
 {
-    public string ballName { get; private set; }
+    public string ballName { get; private set; } //ENCAPSULATION
 
     public Rigidbody ballRb;
 
@@ -20,7 +20,7 @@ public class BallBehavior : MonoBehaviour
         CalculateForce();
     }
 
-
+    //ABSTRACTION
     //Calculates a force towards the camera direction
     protected void CalculateForce(float forceMultipler = 1.0f)
     {

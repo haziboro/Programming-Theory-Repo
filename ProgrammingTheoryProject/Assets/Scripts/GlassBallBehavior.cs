@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GlassBallBehavior : BallBehavior
+public class GlassBallBehavior : BallBehavior //INHERITANCE
 {
 
     private void Start()
@@ -10,6 +10,7 @@ public class GlassBallBehavior : BallBehavior
         ballRb = GetComponent<Rigidbody>();
     }
 
+    //POLYMORPHISM
     //Causes the ball to receive an impact
     public override void OnMouseDown()
     {
